@@ -10,7 +10,7 @@ nvcc -ccbin g++ -Xcompiler "-O3 -g -march=native -pthread" -gencode arch=compute
 ### Get help:
 Run the binary with -h or --help. The program prints the exact usage below
 ```
-Usage: exp/test_la [-h] --CSD CSD [--thread THREAD] --filter FILTER [--red [RED ...]] [--db DB]
+Usage: ./test_la [-h] --CSD CSD [--thread THREAD] --filter FILTER [--red [RED ...]] [--db DB]
 
 Options:
   -h, --help   : Show this help message and exit
